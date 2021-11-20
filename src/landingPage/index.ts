@@ -1,1 +1,1 @@
-export { LandingPageBackground, PageTitle } from "./components";
+export { LandingPageBackground, LandingPageDescription, LandingPageGreeting } from "./components";

@@ -4,7 +4,11 @@ import { FC } from "react";
 
 import "./App.css";
 import { Logo, NavBar } from "./core";
-import { LandingPageBackground, LandingPageGreeting } from "./landingPage";
+import {
+  LandingPageBackground,
+  LandingPageDescription,
+  LandingPageGreeting,
+} from "./landingPage";
 
 export const App: FC = () => (
   <div className="App">
@@ -21,6 +25,7 @@ export const App: FC = () => (
         `}
       />
       <LandingPageGreeting />
+      <LandingPageDescription />
     </LandingPageBackground>
     <NavBar />
   </div>
