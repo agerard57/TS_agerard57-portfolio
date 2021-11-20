@@ -2,6 +2,8 @@
 import { css } from "@emotion/react";
 import { FC } from "react";
 
+/* TODO Add an arrow that displays the navbar when hovered */
+
 export const NavBar: FC = () => (
   <div
     css={css`
