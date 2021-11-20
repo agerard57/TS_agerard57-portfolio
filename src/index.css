@@ -11,15 +11,16 @@
   src: url(./core/fonts/Archia-Regular.otf);
 }
 
+@font-face {
+  font-family: MonoLisa-Regular;
+  src: url(./core/fonts/MonoLisa-Regular.otf);
+}
+
 /*  @font-face {
     font-family: wtf;
     src: url(../medias/Bebas\ Neue\ Bold.otf);
 }
 
-@font-face {
-    font-family: title;
-    src: url(../medias/MonoLisa-Regular.otf);
-}
 
 button {
     cursor: pointer;
@@ -28,8 +29,8 @@ button {
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Archia-Regular",
-    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
-    "Helvetica Neue", sans-serif;
+    "MonoLisa-Regular," "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   scroll-behavior: smooth;
