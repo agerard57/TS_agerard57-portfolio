@@ -1,12 +1,12 @@
 /** @jsxImportSource @emotion/react */
 import { css } from "@emotion/react";
+import { FC } from "react";
 
 import "./App.css";
 import { Logo, NavBar } from "./core";
 import { LandingPageBackground } from "./landingPage";
 
-function App() {
-  return (
+export const App : FC = () => (
     <div className="App">
       <LandingPageBackground>
         <p
@@ -34,7 +34,4 @@ function App() {
       </LandingPageBackground>
       <NavBar />
     </div>
-  );
-}
-
-export default App;
+  )
