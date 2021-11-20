@@ -1,0 +1,1 @@
+export { LandingPageBackground } from "./LandingPageBackground";
