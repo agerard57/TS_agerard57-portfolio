@@ -9,7 +9,6 @@ import { LandingPageBackground, PageTitle } from "./landingPage";
 export const App: FC = () => (
   <div className="App">
     <LandingPageBackground>
-      <PageTitle />
       <Logo
         styles={css`
           justify-self: center;
@@ -18,9 +17,10 @@ export const App: FC = () => (
           fill: #1f1a17;
           display: block;
           margin: 1.3vw 0 0 0;
-          padding: 5vw 0;
+          padding: 3vw 0;
         `}
       />
+      <PageTitle />
     </LandingPageBackground>
     <NavBar />
   </div>

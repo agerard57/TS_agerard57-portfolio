@@ -5,10 +5,8 @@ import { FC } from "react";
 export const PageTitle: FC = () => (
   <p
     css={css`
-      font-size: 180%;
+      font-size: 140%;
       font-family: "MonoLisa-Regular";
-      white-space: nowrap;
-      overflow: hidden;
       color: black;
     `}
   >
