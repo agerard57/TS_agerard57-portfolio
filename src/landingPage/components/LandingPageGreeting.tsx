@@ -2,7 +2,7 @@
 import { css } from "@emotion/react";
 import { FC } from "react";
 
-export const PageTitle: FC = () => (
+export const LandingPageGreeting: FC = () => (
   <p
     css={css`
       font-size: 140%;
