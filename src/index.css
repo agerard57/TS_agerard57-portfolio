@@ -7,8 +7,8 @@
 /* Global */
 
 @font-face {
-    font-family: Archia-Regular;
-    src: url(./core/fonts/Archia-Regular.otf);
+  font-family: Archia-Regular;
+  src: url(./core/fonts/Archia-Regular.otf);
 }
 
 /*  @font-face {
@@ -27,15 +27,15 @@ button {
  */
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI','Archia-Regular', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Archia-Regular",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   scroll-behavior: smooth;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }

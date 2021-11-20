@@ -1,6 +1,6 @@
 /** @jsxImportSource @emotion/react */
-
 import { css } from "@emotion/react";
+
 import "./App.css";
 import { Logo, NavBar } from "./core";
 import { LandingPageBackground } from "./landingPage";
@@ -28,7 +28,7 @@ function App() {
             fill: #1f1a17;
             display: block;
             margin: 1.3vw 0 0 0;
-    padding: 5vw 0;
+            padding: 5vw 0;
           `}
         />
       </LandingPageBackground>

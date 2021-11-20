@@ -1,1 +1,1 @@
-export {Logo, NavBar} from "./components"
+export { Logo, NavBar } from "./components";

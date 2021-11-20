@@ -1,2 +1,2 @@
-export {Logo} from "./Logo"
-export {NavBar} from "./Navbar"
+export { Logo } from "./Logo";
+export { NavBar } from "./Navbar";
