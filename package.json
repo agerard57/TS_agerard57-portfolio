@@ -19,6 +19,10 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
+    "check:eslint": "npx eslint --max-warnings 0 .",
+    "check:prettier": "npx prettier --check .",
+    "check:unused-exports": "npx ts-unused-exports ./tsconfig.json",
+    "check": "npm run check:unused-exports && npm run check:prettier && npm run check:eslint",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
