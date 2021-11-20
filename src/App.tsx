@@ -17,7 +17,7 @@ function App() {
             color: black;
           `}
         >
-          &gt;Bonjour, je suis GERARD Alexandre
+          &gt;Bonjour, je suis GERARD Alexandre !!!!!!!!
         </p>
         <Logo
           styles={css`
