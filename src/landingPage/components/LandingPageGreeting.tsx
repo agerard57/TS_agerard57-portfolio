@@ -35,8 +35,8 @@ export const LandingPageGreeting: FC<Props> = ({
       startDelay={700}
       strings={[
         "Bonjour !",
-        "Bonjour, je suis heureux de faire votre connaissance !",
         "Bonjour, je suis GERARD Alexandre",
+        "Bonjour, je suis heureux de faire votre connaissance !",
       ]}
       smartBackspace
       showCursor
