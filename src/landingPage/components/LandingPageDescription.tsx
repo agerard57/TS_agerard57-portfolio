@@ -2,13 +2,18 @@
 import { css } from "@emotion/react";
 import { FC } from "react";
 
-export const LandingPageDescription: FC = () => (
+type Props = {
+  hasTypeWriterLoopEndedOnce: boolean;
+};
+export const LandingPageDescription: FC<Props> = ({
+  hasTypeWriterLoopEndedOnce,
+}) => (
   <div
     css={css`
       p {
+        opacity: ${hasTypeWriterLoopEndedOnce ? "100%" : "0%"};
+        transition: opacity 0.8s;
         color: black;
-        /* opacity: 0;
-        transition: opacity 0.8s; */ //This is for the animation, duh
         text-align: center;
         height: 103%;
         margin: 8vh;

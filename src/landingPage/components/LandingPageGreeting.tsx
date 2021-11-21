@@ -3,7 +3,13 @@ import { css } from "@emotion/react";
 import { FC } from "react";
 import ReactTyped from "react-typed";
 
-export const LandingPageGreeting: FC = () => (
+type Props = {
+  setHasTypeWriterLoopEndedOnce: React.Dispatch<React.SetStateAction<boolean>>;
+};
+
+export const LandingPageGreeting: FC<Props> = ({
+  setHasTypeWriterLoopEndedOnce,
+}) => (
   <div
     css={css`
       padding: 0px 1.3vw;
@@ -35,8 +41,7 @@ export const LandingPageGreeting: FC = () => (
       showCursor
       loop
       cursorChar="_"
-      /*       onLastStringBackspaced={() => {}} //TODO Animation description
-       */
+      onLastStringBackspaced={() => setHasTypeWriterLoopEndedOnce(true)} //TODO Animation description
     />
   </div>
 );

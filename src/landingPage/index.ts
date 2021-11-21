@@ -1,1 +1,2 @@
-export { LandingPageBackground, LandingPageDescription, LandingPageGreeting } from "./components";
+export { LandingPage } from "./components";
+export { useLandingPageDescription } from "./hooks"

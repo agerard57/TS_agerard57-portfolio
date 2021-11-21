@@ -1,0 +1,1 @@
+export { useLandingPageDescription } from "./useLandingPageDescription"
