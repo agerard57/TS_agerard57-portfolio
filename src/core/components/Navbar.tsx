@@ -9,21 +9,21 @@ export const NavBar: FC = () => (
     css={css`
       position: fixed;
       bottom: 0px;
-      display: inline;
       left: 0;
       right: 0;
       background-color: #eeeeee;
       box-shadow: 0px -3px 5px 0px #656565;
-      font-size: 23px;
-      height: 97px;
+      font-size: 1.4vw;
+      height: 5vw;
     `}
   >
     <ul
       css={css`
         display: flex;
-        width: fill-available;
         height: fill-available;
         margin-left: 0;
+        padding: 0;
+        width: fill-available;
 
         li {
           margin: 0 auto;
@@ -32,10 +32,8 @@ export const NavBar: FC = () => (
           font-family: "Archia-Regular";
 
           a {
-            top: 50%;
             text-decoration: none;
             color: #121314;
-            position: relative;
           }
         }
       `}
