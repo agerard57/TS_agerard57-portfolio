@@ -8,6 +8,7 @@ import {
 
 import { LandingPage } from "../landingPage";
 import { Layout } from "../layout";
+import { Resume } from "../resume";
 
 export const RouteManager: FC = () => (
   <Router>
@@ -15,6 +16,7 @@ export const RouteManager: FC = () => (
       <Routes>
         <Route path="/" element={<Navigate to="/home" />} />
         <Route path="/home" element={<LandingPage />} />
+        <Route path="/cv" element={<Resume />} />
       </Routes>
     </Layout>
   </Router>

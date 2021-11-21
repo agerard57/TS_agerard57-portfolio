@@ -52,9 +52,9 @@ export const NavBar: FC = () => (
         <a href="#contact">Me contacter</a> {/* TODO Change Route */}
       </li>
       <li>
-        <a target="_blank" href="medias/cv.pdf">
+        <Link to="/cv" target="_blank">
           CV
-        </a>
+        </Link>
       </li>
     </ul>
   </div>
