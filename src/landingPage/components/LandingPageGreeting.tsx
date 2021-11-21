@@ -1,15 +1,42 @@
 /** @jsxImportSource @emotion/react */
 import { css } from "@emotion/react";
 import { FC } from "react";
+import ReactTyped from "react-typed";
 
 export const LandingPageGreeting: FC = () => (
-  <p
+  <div
     css={css`
-      font-size: 140%;
-      font-family: "MonoLisa-Regular";
-      color: black;
+      padding: 0px 1.3vw;
+      p {
+        margin: 0;
+        font-size: 140%;
+        font-family: "MonoLisa-Regular";
+        color: black;
+        display: inline-block;
+      }
     `}
   >
-    &gt;Bonjour, je suis GERARD Alexandre
-  </p>
+    <p>&gt;&nbsp;</p>
+    <ReactTyped
+      css={css`
+        font-size: 140%;
+        font-family: "MonoLisa-Regular";
+        color: black;
+      `}
+      typeSpeed={50}
+      backSpeed={20}
+      startDelay={1000}
+      strings={[
+        "Bonjour, je suis heureux de faire votre connaissance !",
+        "Bonjour, je suis GERARD Alexandre",
+      ]}
+      smartBackspace
+      backDelay={1000}
+      showCursor
+      loop
+      cursorChar="_"
+      /*       onLastStringBackspaced={() => {}} //TODO Animation description
+       */
+    />
+  </div>
 );
