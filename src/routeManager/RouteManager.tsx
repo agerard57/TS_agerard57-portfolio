@@ -1,14 +1,21 @@
 import { FC } from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Route,
+  Routes,
+  Navigate,
+} from "react-router-dom";
 
-import { NavBar } from "../core";
 import { LandingPage } from "../landingPage";
+import { Layout } from "../layout";
 
 export const RouteManager: FC = () => (
   <Router>
-    <Routes>
-      <Route path="/home" element={<LandingPage />} />
-    </Routes>
-    <NavBar />
+    <Layout>
+      <Routes>
+        <Route path="/" element={<Navigate to="/home" />} />
+        <Route path="/home" element={<LandingPage />} />
+      </Routes>
+    </Layout>
   </Router>
 );

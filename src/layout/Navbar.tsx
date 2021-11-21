@@ -1,6 +1,7 @@
 /** @jsxImportSource @emotion/react */
 import { css } from "@emotion/react";
 import { FC } from "react";
+import { Link } from "react-router-dom";
 
 /* TODO Add an arrow that displays the navbar when hovered */
 
@@ -39,16 +40,16 @@ export const NavBar: FC = () => (
       `}
     >
       <li>
-        <a href="#about">Présentation</a>
+        <Link to="/home">Présentation</Link>
       </li>
       <li>
-        <a href="#cpt">Mes compétences</a>
+        <a href="#cpt">Mes compétences</a> {/* TODO Change Route */}
       </li>
       <li>
-        <a href="#proj">Projets</a>
+        <a href="#proj">Projets</a> {/* TODO Change Route */}
       </li>
       <li>
-        <a href="#contact">Me contacter</a>
+        <a href="#contact">Me contacter</a> {/* TODO Change Route */}
       </li>
       <li>
         <a target="_blank" href="medias/cv.pdf">
