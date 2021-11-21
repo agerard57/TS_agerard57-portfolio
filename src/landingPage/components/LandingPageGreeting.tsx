@@ -29,19 +29,19 @@ export const LandingPageGreeting: FC<Props> = ({
         font-family: "MonoLisa-Regular";
         color: black;
       `}
-      typeSpeed={50}
+      typeSpeed={40}
+      backDelay={600}
       backSpeed={20}
-      startDelay={1000}
+      startDelay={700}
       strings={[
         "Bonjour, je suis heureux de faire votre connaissance !",
         "Bonjour, je suis GERARD Alexandre",
       ]}
       smartBackspace
-      backDelay={1000}
       showCursor
       loop
       cursorChar="_"
-      onLastStringBackspaced={() => setHasTypeWriterLoopEndedOnce(true)} //TODO Animation description
+      onLastStringBackspaced={() => setHasTypeWriterLoopEndedOnce(true)}
     />
   </div>
 );
