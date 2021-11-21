@@ -29,11 +29,12 @@ export const LandingPageGreeting: FC<Props> = ({
         font-family: "MonoLisa-Regular";
         color: black;
       `}
-      typeSpeed={40}
-      backDelay={600}
-      backSpeed={20}
+      typeSpeed={15}
+      backDelay={1500}
+      backSpeed={15}
       startDelay={700}
       strings={[
+        "Bonjour !",
         "Bonjour, je suis heureux de faire votre connaissance !",
         "Bonjour, je suis GERARD Alexandre",
       ]}
