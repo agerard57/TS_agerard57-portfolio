@@ -2,8 +2,7 @@
 import { css } from "@emotion/react";
 import { FC, useState } from "react";
 
-import { Logo } from "../../core";
-import { LandingPageBackground } from "./LandingPageBackground";
+import { BlueBorderBackground, Logo } from "../../core";
 import { LandingPageDescription } from "./LandingPageDescription";
 import { LandingPageGreeting } from "./LandingPageGreeting";
 
@@ -12,7 +11,7 @@ export const LandingPage: FC = () => {
     useState(false);
   return (
     <>
-      <LandingPageBackground>
+      <BlueBorderBackground backgroundColor={"white"}>
         <Logo
           styles={css`
             justify-self: center;
@@ -30,7 +29,7 @@ export const LandingPage: FC = () => {
         <LandingPageDescription
           hasTypeWriterLoopEndedOnce={hasTypeWriterLoopEndedOnce}
         />
-      </LandingPageBackground>
+      </BlueBorderBackground>
     </>
   );
 };

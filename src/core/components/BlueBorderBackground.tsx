@@ -2,10 +2,17 @@
 import { css } from "@emotion/react";
 import { FC } from "react";
 
-export const LandingPageBackground: FC = ({ children }) => (
+type Props = {
+  backgroundColor: string;
+};
+
+export const BlueBorderBackground: FC<Props> = ({
+  backgroundColor,
+  children,
+}) => (
   <div
     css={css`
-      background-color: white;
+      background-color: ${backgroundColor};
       min-height: 100vh;
       display: flex;
       flex-direction: column;
@@ -14,7 +21,6 @@ export const LandingPageBackground: FC = ({ children }) => (
       /* justify-content: center; */ //Centers content vertically
       padding-top: 1wh;
       font-size: calc(10px + 2vmin);
-      color: white;
     `}
   >
     {children}
