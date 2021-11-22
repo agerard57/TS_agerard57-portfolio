@@ -64,18 +64,16 @@ export const NavBar: FC = () => (
         </Link>
       </li>
       <li>
-        <a href="#cpt">Mes compétences</a> {/* TODO Change Route */}
+        <Link to="/skills">Mes compétences</Link>
       </li>
       <li>
-        <a href="#proj">Projets</a> {/* TODO Change Route */}
+        <Link to="/projects"> Mes projets</Link>
       </li>
       <li>
-        <a href="#contact">Me contacter</a> {/* TODO Change Route */}
+        <Link to="/contact"> Me contacter</Link>
       </li>
       <li>
-        <Link to="/cv" target="_blank">
-          CV
-        </Link>
+        <Link to="/cv">CV</Link>
       </li>
     </div>
   </div>
