@@ -4,7 +4,7 @@ import { Document, Page } from "react-pdf";
 
 export const Resume: FC = () => (
   <div>
-    <Document file={"/cv.pdf"}>
+    <Document file={"/assets/cv.pdf"}>
       <Page pageNumber={1} />
     </Document>
   </div>

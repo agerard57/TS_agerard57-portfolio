@@ -1,3 +1,11 @@
 import { FC } from "react";
 
-export const Projects: FC = () => <div>Projects page</div>;
+import { BlueBorderBackground } from "../../core";
+
+export const Projects: FC = () => (
+  <>
+    <BlueBorderBackground backgroundColor={"transparent"}>
+      Projects page
+    </BlueBorderBackground>
+  </>
+);
