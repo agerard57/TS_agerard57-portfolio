@@ -1,4 +1,7 @@
 {
+  "Layout": {
+    "confirmationMessage": "La langue du site a bien été changée en Francais !"
+  },
   "Navbar": {
     "presentation": "Présentation",
     "skills": "Mes compétences",

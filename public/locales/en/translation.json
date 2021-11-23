@@ -1,4 +1,7 @@
 {
+  "Layout": {
+    "confirmationMessage": "The website's language has been sucessfully set to english!"
+  },
   "Navbar": {
     "presentation": "Presentation",
     "skills": "My skills",

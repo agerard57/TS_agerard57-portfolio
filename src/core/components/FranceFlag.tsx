@@ -1,9 +1,16 @@
+/** @jsxImportSource @emotion/react */
+import { css } from "@emotion/react";
 import { FC } from "react";
 
 type Props = { onClick(): void };
 
 export const FrenchFlag: FC<Props> = ({ onClick }) => (
-  <div onClick={onClick}>
+  <div
+    onClick={onClick}
+    css={css`
+      grid-area: frflag;
+    `}
+  >
     <svg
       width={512}
       height={335.454}
