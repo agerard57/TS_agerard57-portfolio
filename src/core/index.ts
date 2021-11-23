@@ -1,1 +1,6 @@
-export { BlueBorderBackground, BackgroundVideo, Logo } from "./components";
+export {
+  BlueBorderBackground,
+  BackgroundVideo,
+  Flags,
+  Logo,
+} from "./components";

@@ -11,9 +11,9 @@ type Props = {
 export const LandingPageGreeting: FC<Props> = ({
   setHasTypeWriterLoopEndedOnce,
 }) => {
-  // const { t } = useTranslation();
-  // for (const i; i < 4; i++) { }
-  // const array = [t("title.title1"),t("title.title2"),t("title.title3")]
+  const { t } = useTranslation();
+  const array = [t("title.title1"), t("title.title2"), t("title.title3")];
+  // for (const i; i < 4; i++)  TODO
   return (
     <div
       css={css`
