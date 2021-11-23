@@ -1,6 +1,7 @@
 /** @jsxImportSource @emotion/react */
 import { css } from "@emotion/react";
 import { FC } from "react";
+import { Link } from "react-router-dom";
 
 type Props = {
   hasTypeWriterLoopEndedOnce: boolean;
@@ -46,7 +47,7 @@ export const LandingPageDescription: FC<Props> = ({
     </p>
     <p>
       Vous pouvez voir{" "}
-      <a href="#cpt">mes principales compétences en cliquant ici</a>,
+      <Link to="/skills">mes principales compétences en cliquant ici</Link>,
     </p>
     <p>
       <b>bonne visite !</b>
