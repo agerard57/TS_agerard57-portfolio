@@ -1,10 +1,25 @@
 {
-  "title": {
-    "title1": "Bonjour !",
-    "title2": "Bonjour, je suis GERARD Alexandre",
-    "title3": "Bonjour, je suis heureux de faire votre connaissance !"
+  "Navbar": {
+    "presentation": "Présentation",
+    "skills": "Mes compétences",
+    "projects": "Mes projets",
+    "contact": "Me contacter",
+    "resume": "Mon CV"
   },
-  "Student": {
-    "Title1": "I am an dsdqsdqs student."
+
+  "LandingPage": {
+    "greetingMessages": {
+      "1": "Bonjour !",
+      "2": "Bonjour, je suis GERARD Alexandre",
+      "3": "Bonjour, heureux de vous recevoir !"
+    },
+    "description": {
+      "1": "Je suis un étudiant en troisième année d'informatique. J'espère me spécialiser en design / front-end :)",
+      "2": {
+        "link": "Cliquez ici",
+        "text": " pour voir mes principales compétences,"
+      },
+      "3": "bonne visite !"
+    }
   }
 }

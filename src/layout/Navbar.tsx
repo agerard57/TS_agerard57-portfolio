@@ -1,6 +1,7 @@
 /** @jsxImportSource @emotion/react */
 import { css } from "@emotion/react";
 import { FC } from "react";
+import { useTranslation } from "react-i18next";
 import { Link, useLocation } from "react-router-dom";
 
 import { Logo } from "../core";
@@ -9,10 +10,9 @@ import { Arrow } from "./Arrow";
 /* TODO Add an arrow that displays the navbar when hovered */
 
 export const NavBar: FC = () => {
+  const { t } = useTranslation();
   const location = useLocation();
   const isHome = location.pathname === "/home";
-  console.error(location.pathname);
-  console.error(isHome);
   return (
     <div
       css={css`
@@ -80,19 +80,19 @@ export const NavBar: FC = () => {
           </li>
         )}
         <li>
-          <Link to="/presentation">Présentation</Link>
+          <Link to="/presentation">{t("Navbar.presentation")}</Link>
         </li>
         <li>
-          <Link to="/skills">Mes compétences</Link>
+          <Link to="/skills">{t("Navbar.skills")}</Link>
         </li>
         <li>
-          <Link to="/projects"> Mes projets</Link>
+          <Link to="/projects">{t("Navbar.projects")}</Link>
         </li>
         <li>
-          <Link to="/contact"> Me contacter</Link>
+          <Link to="/contact">{t("Navbar.contact")}</Link>
         </li>
         <li>
-          <Link to="/cv">CV</Link>
+          <Link to="/cv">{t("Navbar.resume")}</Link>
         </li>
       </div>
     </div>

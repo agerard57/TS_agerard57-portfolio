@@ -12,7 +12,11 @@ export const LandingPageGreeting: FC<Props> = ({
   setHasTypeWriterLoopEndedOnce,
 }) => {
   const { t } = useTranslation();
-  const array = [t("title.title1"), t("title.title2"), t("title.title3")];
+  const array = [
+    t("LandingPage.greetingMessages.1"),
+    t("LandingPage.greetingMessages.2"),
+    t("LandingPage.greetingMessages.3"),
+  ];
   // for (const i; i < 4; i++)  TODO
   return (
     <div

@@ -1,10 +1,24 @@
 {
-  "title": {
-    "title1": "Hello !",
-    "title2": "Hello, I am Alexandre GERARD",
-    "title3": "Hello, I am glad to meet you !"
+  "Navbar": {
+    "presentation": "Presentation",
+    "skills": "My skills",
+    "projects": "My projects",
+    "contact": "Contact me",
+    "resume": "My Resume"
   },
-  "Student": {
-    "Title1": "I am an dsdqsdqs student."
+  "LandingPage": {
+    "greetingMessages": {
+      "1": "Hello !",
+      "2": "Hello, I am Alexandre GERARD",
+      "3": "Hello, I am glad to meet you !"
+    },
+    "description": {
+      "1": "I am an IT student in my third year. I hope to specialize in design / front-end",
+      "2": {
+        "link": "Click here",
+        "text": " if you want to see my main skills,"
+      },
+      "3": "enjoy your visit!"
+    }
   }
 }
