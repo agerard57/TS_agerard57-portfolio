@@ -11,6 +11,7 @@ export const Logo: FC<Props> = ({ styles }) => (
     css={css`
       justify-self: center;
       width: 20%;
+      fill: #1f1a17;
       height: auto;
       ${styles}
     `}

@@ -32,7 +32,7 @@ export const LandingPageDescription: FC<Props> = ({
         left: -0.1em;
         right: -0.1em;
         bottom: 0;
-        transition: top 200ms cubic-bezier(0, 0.8, 0.13, 1);
+        transition: left 2000ms cubic-bezier(1, 0.8, 0.13, 1);
         background-color: #7f99ff4d;
       }
       a:hover:after {
