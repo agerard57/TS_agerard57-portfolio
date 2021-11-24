@@ -1,7 +1,7 @@
 {
   "Core": {
     "confirmationMessage": "La langue du site a bien été changée en Francais !",
-    "refusMessage": "La langue du site est déjà en Francais."
+    "deniedMessage": "La langue du site est déjà en Francais."
   },
   "Navbar": {
     "presentation": "Présentation",
