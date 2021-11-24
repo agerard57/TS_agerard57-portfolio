@@ -1,17 +1,15 @@
 /** @jsxImportSource @emotion/react */
 import { css } from "@emotion/react";
 import { FC } from "react";
-import { useTranslation } from "react-i18next";
 
-import { useToast } from "../hooks";
+import { useFlags } from "../hooks";
 import { EnglishFlag } from "./EnglishFlag";
 import { FrenchFlag } from "./FrenchFlag";
 
 // https://www.svgrepo.com/collection/international-flags-6/
 
 export const Flags: FC = () => {
-  const { onClick } = useToast();
-  const { t } = useTranslation();
+  const { onClick } = useFlags();
   return (
     <div
       css={css`
@@ -45,12 +43,10 @@ export const Flags: FC = () => {
         }
       `}
     >
-      <FrenchFlag
-        onClick={() => onClick("fr", t("Core.confirmationMessage"), "success")}
-      />
+      <FrenchFlag onClick={() => onClick("fr")} />
       <EnglishFlag
         onClick={() => {
-          onClick("en", t("Core.confirmationMessage"), "success");
+          onClick("en");
         }}
       />
     </div>
