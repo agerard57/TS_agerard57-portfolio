@@ -3,7 +3,6 @@ import { css } from "@emotion/react";
 import { changeLanguage } from "i18next";
 import { FC } from "react";
 import { useTranslation } from "react-i18next";
-import { Link, useLocation } from "react-router-dom";
 import { useToasts } from "react-toast-notifications";
 
 import { EnglishFlag } from "./EnglishFlag";
@@ -14,14 +13,15 @@ import { FrenchFlag } from "./FrenchFlag";
 export const Flags: FC = () => {
   const { addToast } = useToasts();
   const { t } = useTranslation();
-  // const toaster = (lang: string) => {
   const toaster = (lang: string) => {
     changeLanguage(lang);
-    addToast(t("Core.confirmationMessage"), {
-      appearance: "success",
-      autoDismiss: true,
-      autoDismissTimeout: 3000,
-    });
+    setTimeout(() => {
+      addToast(t("Core.confirmationMessage"), {
+        appearance: "success",
+        autoDismiss: true,
+        autoDismissTimeout: 3000,
+      });
+    }, 100);
   };
   return (
     <div
