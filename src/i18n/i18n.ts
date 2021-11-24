@@ -8,9 +8,12 @@ i18n
   .use(Backend)
   .use(initReactI18next)
   .init({
-    detection: { order: ["querystring"] },
+    detection: { order: ["querystring"], lookupQuerystring: "lng" },
     fallbackLng: "en",
     interpolation: { escapeValue: false },
+    react: {
+      bindI18n: "languageChanged", // i am changing this as I dont wanna any flickering on language change
+    },
   });
 
 export { i18n };
