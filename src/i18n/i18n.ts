@@ -10,9 +10,10 @@ i18n
   .init({
     detection: { order: ["querystring"], lookupQuerystring: "lng" },
     fallbackLng: "en",
+    preload: ["en", "fr"],
     interpolation: { escapeValue: false },
     react: {
-      bindI18n: "languageChanged", // i am changing this as I dont wanna any flickering on language change
+      bindI18n: "languageChanged",
     },
   });
 
