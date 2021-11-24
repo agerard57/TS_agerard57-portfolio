@@ -1,4 +1,4 @@
-export { BlueBorderBackground } from "./BlueBorderBackground";
+export { Layout } from "./Layout";
 export { BackgroundVideo } from "./BackgroundVideo";
+export { BlueBorderBackground } from "./BlueBorderBackground";
 export { Logo } from "./Logo";
-export { Flags } from "./Flags";

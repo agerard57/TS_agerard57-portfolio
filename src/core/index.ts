@@ -1,6 +1,6 @@
 export {
   BlueBorderBackground,
   BackgroundVideo,
-  Flags,
   Logo,
+  Layout,
 } from "./components";

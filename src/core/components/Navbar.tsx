@@ -4,8 +4,8 @@ import { FC } from "react";
 import { useTranslation } from "react-i18next";
 import { Link, useLocation } from "react-router-dom";
 
-import { Logo } from "../core";
 import { Arrow } from "./Arrow";
+import { Logo } from "./Logo";
 
 /* TODO Add an arrow that displays the navbar when hovered */
 

@@ -1,7 +1,7 @@
 /** @jsxImportSource @emotion/react */
 import { FC } from "react";
 
-import { Flags } from "../core";
+import { Flags } from "./Flags";
 import { NavBar } from "./Navbar";
 
 export const Layout: FC = ({ children }) => (

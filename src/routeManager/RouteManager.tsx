@@ -7,8 +7,8 @@ import {
 } from "react-router-dom";
 
 import { Contact } from "../contact";
+import { Layout } from "../core";
 import { LandingPage } from "../landingPage";
-import { Layout } from "../layout";
 import { Projects } from "../projects";
 import { Resume } from "../resume";
 import { Skills } from "../skills";
