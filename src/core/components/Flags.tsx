@@ -1,28 +1,17 @@
 /** @jsxImportSource @emotion/react */
 import { css } from "@emotion/react";
-import { changeLanguage } from "i18next";
 import { FC } from "react";
 import { useTranslation } from "react-i18next";
-import { useToasts } from "react-toast-notifications";
 
+import { useToast } from "../hooks";
 import { EnglishFlag } from "./EnglishFlag";
 import { FrenchFlag } from "./FrenchFlag";
 
 // https://www.svgrepo.com/collection/international-flags-6/
 
 export const Flags: FC = () => {
-  const { addToast } = useToasts();
+  const { onClick } = useToast();
   const { t } = useTranslation();
-  const toaster = (lang: string) => {
-    changeLanguage(lang);
-    setTimeout(() => {
-      addToast(t("Core.confirmationMessage"), {
-        appearance: "success",
-        autoDismiss: true,
-        autoDismissTimeout: 3000,
-      });
-    }, 100);
-  };
   return (
     <div
       css={css`
@@ -57,13 +46,11 @@ export const Flags: FC = () => {
       `}
     >
       <FrenchFlag
-        onClick={() => {
-          toaster("fr");
-        }}
+        onClick={() => onClick("fr", t("Core.confirmationMessage"), "success")}
       />
       <EnglishFlag
         onClick={() => {
-          toaster("en");
+          onClick("en", t("Core.confirmationMessage"), "success");
         }}
       />
     </div>
