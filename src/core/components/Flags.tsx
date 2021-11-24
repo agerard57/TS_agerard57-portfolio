@@ -22,18 +22,18 @@ export const Flags: FC = () => {
         left: 86%;
         display: grid;
         grid-auto-columns: 1fr;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr;
         gap: 1vw 0px;
         grid-template-areas:
-          "txt frflag"
-          "txt enflag";
+          "frflag"
+          "enflag";
         justify-items: end;
         align-items: center;
         align-content: center;
 
         svg {
-          width: 60%;
+          width: 25%;
           height: auto;
           opacity: 20%;
           transition: opacity 0.1s linear 0.1s;
@@ -46,13 +46,6 @@ export const Flags: FC = () => {
         }
       `}
     >
-      <p
-        css={css`
-          grid-area: txt;
-        `}
-      >
-        {t("Layout.confirmationMessage")}
-      </p>
       <FrenchFlag onClick={() => changeLanguage("fr")} />
       <EnglishFlag onClick={() => changeLanguage("en")} />
     </div>
