@@ -24,7 +24,7 @@ export const RouteManager: FC = () => (
         <Route path="/skills" element={<Skills />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/cv" element={<Resume />} />
+        <Route path="/resume" element={<Resume />} />
       </Routes>
     </Layout>
   </Router>

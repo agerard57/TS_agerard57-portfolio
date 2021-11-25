@@ -92,7 +92,7 @@ export const NavBar: FC = () => {
           <Link to="/contact">{t("Contact.title")}</Link>
         </li>
         <li>
-          <Link to="/cv">{t("Resume.title")}</Link>
+          <Link to="/resume">{t("Resume.title")}</Link>
         </li>
       </div>
     </div>
