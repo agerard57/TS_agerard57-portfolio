@@ -53,47 +53,42 @@ export const NavBar: FC = () => {
           height: 5vw;
           margin-top: 1vw;
 
-          li {
+          a {
             margin: 0 auto;
             list-style: none;
-            align-self: center;
+            line-height: 360%;
+            width: fill-available;
+            height: fill-available;
             font-family: "Archia-Regular";
+            text-decoration: none;
+            color: #121314;
 
-            a {
-              text-decoration: none;
-              color: #121314;
+            &:hover {
+              background-color: #b6b8d440;
             }
           }
         `}
       >
         {!isHome && (
-          <li>
-            <Link to="/home">
-              <Logo
-                styles={css`
-                  width: 40%;
-                  transform: translateY(7%);
-                  transition: top 200ms cubic-bezier(0, 0.8, 0.13, 1);
-                `}
-              />
-            </Link>
-          </li>
+          <Link to="/home">
+            <Logo
+              styles={css`
+                padding: 0;
+                width: 40%;
+                transform: translateY(17%);
+                transition: top 200ms cubic-bezier(0, 0.8, 0.13, 1);
+              `}
+            />
+          </Link>
         )}
-        <li>
-          <Link to="/presentation">{t("Presentation.title")}</Link>
-        </li>
-        <li>
-          <Link to="/skills">{t("Skills.title")}</Link>
-        </li>
-        <li>
-          <Link to="/projects">{t("Projects.title")}</Link>
-        </li>
-        <li>
-          <Link to="/contact">{t("Contact.title")}</Link>
-        </li>
-        <li>
-          <Link to="/resume">{t("Resume.title")}</Link>
-        </li>
+        <Link to="/presentation">{t("Presentation.title")}</Link>
+        <Link to="/skills">{t("Skills.title")}</Link>
+
+        <Link to="/projects">{t("Projects.title")}</Link>
+
+        <Link to="/contact">{t("Contact.title")}</Link>
+
+        <Link to="/resume">{t("Resume.title")}</Link>
       </div>
     </div>
   );
