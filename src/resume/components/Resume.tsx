@@ -1,9 +1,9 @@
 /** @jsxImportSource @emotion/react */
 import { FC } from "react";
 import { useTranslation } from "react-i18next";
-import { Document, Page } from "react-pdf";
 
 import { BlueBorderBackground, BackgroundVideo, PageTitle } from "../../core";
+import { PdfDisplay } from "./PdfDisplay";
 
 export const Resume: FC = () => {
   const { t } = useTranslation();
@@ -12,11 +12,7 @@ export const Resume: FC = () => {
       <BlueBorderBackground backgroundColor={"transparent"}>
         <BackgroundVideo />
         <PageTitle title={t("Resume.title")} />
-        <div>
-          <Document file={"/assets/cv.pdf"}>
-            <Page pageNumber={1} />
-          </Document>
-        </div>
+        <PdfDisplay />
       </BlueBorderBackground>
     </>
   );
