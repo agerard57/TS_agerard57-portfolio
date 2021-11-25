@@ -3,4 +3,5 @@ export {
   BackgroundVideo,
   Logo,
   Layout,
+  PageTitle,
 } from "./components";

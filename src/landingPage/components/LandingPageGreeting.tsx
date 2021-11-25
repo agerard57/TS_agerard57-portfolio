@@ -26,7 +26,7 @@ export const LandingPageGreeting: FC<Props> = ({
           margin: 0;
           font-size: 140%;
           font-family: "MonoLisa-Regular";
-          color: black;
+          color: #1f1a17;
           display: inline-block;
         }
       `}
@@ -36,7 +36,7 @@ export const LandingPageGreeting: FC<Props> = ({
         css={css`
           font-size: 140%;
           font-family: "MonoLisa-Regular";
-          color: black;
+          color: #1f1a17;
         `}
         typeSpeed={15}
         backDelay={1500}

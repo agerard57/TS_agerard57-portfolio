@@ -16,21 +16,20 @@
   src: url(./core/fonts/MonoLisa-Regular.otf);
 }
 
-/*  @font-face {
-    font-family: wtf;
-    src: url(../medias/Bebas\ Neue\ Bold.otf);
+@font-face {
+  font-family: Bebas-Neue-Bold;
+  src: url(./core/fonts/Bebas\ Neue\ Bold.otf);
 }
-
 
 button {
-    cursor: pointer;
+  cursor: pointer;
 }
- */
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Archia-Regular",
-    "MonoLisa-Regular," "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
-    "Droid Sans", "Helvetica Neue", sans-serif;
+    "Bebas-Neue-Bold", "MonoLisa-Regular," "Roboto", "Oxygen", "Ubuntu",
+    "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   scroll-behavior: smooth;
