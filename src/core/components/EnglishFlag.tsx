@@ -5,13 +5,12 @@ import { FC } from "react";
 type Props = { onClick(): void };
 
 export const EnglishFlag: FC<Props> = ({ onClick }) => (
-  <div
-    onClick={onClick}
-    css={css`
-      grid-area: enflag;
-    `}
-  >
+  <div>
     <svg
+      onClick={onClick}
+      css={css`
+        grid-area: enflag;
+      `}
       xmlns="http://www.w3.org/2000/svg"
       width={512}
       height={335.45}
