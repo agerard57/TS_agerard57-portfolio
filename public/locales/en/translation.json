@@ -3,13 +3,7 @@
     "confirmationMessage": "The website's language has been sucessfully set to English!",
     "deniedMessage": "The website's language was already set to English."
   },
-  "Navbar": {
-    "presentation": "Presentation",
-    "skills": "My skills",
-    "projects": "My projects",
-    "contact": "Contact me",
-    "resume": "My Resume"
-  },
+
   "LandingPage": {
     "greetingMessages": {
       "1": "Hello !",
@@ -24,5 +18,25 @@
       },
       "3": "enjoy your visit!"
     }
+  },
+
+  "Presentation": {
+    "title": "Presentation"
+  },
+
+  "Skills": {
+    "title": "My skills"
+  },
+
+  "Projects": {
+    "title": "My projects"
+  },
+
+  "Contact": {
+    "title": "Contact me"
+  },
+
+  "Resume": {
+    "title": "My Resume"
   }
 }

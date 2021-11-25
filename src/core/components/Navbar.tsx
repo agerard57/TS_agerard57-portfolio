@@ -80,19 +80,19 @@ export const NavBar: FC = () => {
           </li>
         )}
         <li>
-          <Link to="/presentation">{t("Navbar.presentation")}</Link>
+          <Link to="/presentation">{t("Presentation.title")}</Link>
         </li>
         <li>
-          <Link to="/skills">{t("Navbar.skills")}</Link>
+          <Link to="/skills">{t("Skills.title")}</Link>
         </li>
         <li>
-          <Link to="/projects">{t("Navbar.projects")}</Link>
+          <Link to="/projects">{t("Projects.title")}</Link>
         </li>
         <li>
-          <Link to="/contact">{t("Navbar.contact")}</Link>
+          <Link to="/contact">{t("Contact.title")}</Link>
         </li>
         <li>
-          <Link to="/cv">{t("Navbar.resume")}</Link>
+          <Link to="/cv">{t("Resume.title")}</Link>
         </li>
       </div>
     </div>

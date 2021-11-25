@@ -3,13 +3,6 @@
     "confirmationMessage": "La langue du site a bien été changée en Francais !",
     "deniedMessage": "La langue du site est déjà en Francais."
   },
-  "Navbar": {
-    "presentation": "Présentation",
-    "skills": "Mes compétences",
-    "projects": "Mes projets",
-    "contact": "Me contacter",
-    "resume": "Mon CV"
-  },
 
   "LandingPage": {
     "greetingMessages": {
@@ -25,5 +18,25 @@
       },
       "3": "bonne visite !"
     }
+  },
+
+  "Presentation": {
+    "title": "Présentation"
+  },
+
+  "Skills": {
+    "title": "Mes compétences"
+  },
+
+  "Projects": {
+    "title": "Mes projets"
+  },
+
+  "Contact": {
+    "title": "Me contacter"
+  },
+
+  "Resume": {
+    "title": "Mon CV"
   }
 }
