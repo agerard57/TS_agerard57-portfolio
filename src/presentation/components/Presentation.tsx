@@ -21,6 +21,7 @@ export const Presentation: FC = () => {
         >
           <PageTitle title={t("Presentation.title")} />
           <PartTitle title="MOI" profilePicture />
+          {/* <ProfileDescription></ProfileDescription> */}
         </div>
       </BlueBorderBackground>
     </>
