@@ -20,7 +20,7 @@ export const Presentation: FC = () => {
           `}
         >
           <PageTitle title={t("Presentation.title")} />
-          <PartTitle title="MOI" photoUrl="assets/img/pfp.png" />
+          <PartTitle title="MOI" profilePicture />
         </div>
       </BlueBorderBackground>
     </>

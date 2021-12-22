@@ -4,23 +4,23 @@ import { FC } from "react";
 
 type Props = {
   title: string;
-  photoUrl?: string;
+  alt?: boolean;
+  profilePicture?: boolean;
 };
 
-export const PartTitle: FC<Props> = ({ title, photoUrl }) => (
+export const PartTitle: FC<Props> = ({ title, alt, profilePicture }) => (
   <>
-    {photoUrl ? (
+    {profilePicture ? (
       <img
-        src={photoUrl}
-        alt="with"
+        src={"assets/img/pfp.png"}
         css={css`
           margin: 0 auto;
           margin-top: 30px;
           width: 160px;
           height: 160px;
-          border: 3px solid #1f1a17;
+          border: 3px solid #364ca1;
           border-radius: 50%;
-          background: #1f1a17;
+          background: #364ca1;
           display: table;
         `}
       />
@@ -42,22 +42,27 @@ export const PartTitle: FC<Props> = ({ title, photoUrl }) => (
           display: inline-block;
           margin: 0 auto;
           padding: 15px 75px;
-          background: #1f1a17;
-          color: #fff;
+          background: ${alt ? "none" : "#364ca1"};
+          color: ${alt ? "#364ca1" : "#ffffff"};
+          border: ${alt ? "2px solid #364ca1" : "none"};
         `}
       >
         {title}
       </h3>
-      <div
-        css={css`
-          position: relative;
-          width: 80%;
-          height: 2px;
-          margin: 0 auto;
-          margin-top: -2px;
-          background: #1f1a17;
-        `}
-      />
+      {alt ? (
+        <></>
+      ) : (
+        <div
+          css={css`
+            position: relative;
+            width: 80%;
+            height: 2px;
+            margin: 0 auto;
+            margin-top: -2px;
+            background: #364ca1;
+          `}
+        />
+      )}
     </div>
   </>
 );

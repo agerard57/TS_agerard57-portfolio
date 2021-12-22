@@ -29,7 +29,7 @@ export const PageTitle: FC<Props> = ({ title }) => (
         font-family: "Bebas-Neue-Bold";
         font-size: 4vw;
         margin: 0;
-        padding: 3.6% 0 0 0;
+        padding: 11px 0 0 0;
         text-shadow: 2px 3px 0 #899be3;
         list-style: lower-alpha;
         color: #1f1a17;
