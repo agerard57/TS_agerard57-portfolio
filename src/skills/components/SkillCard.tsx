@@ -3,7 +3,14 @@ import { css } from "@emotion/react";
 import { FC } from "react";
 import { useTranslation } from "react-i18next";
 
-export const SkillCard: FC = () => {
+type Props = {
+  title: string;
+  src: string;
+  description: string[];
+  acquired: string[];
+};
+
+export const SkillCard: FC<Props> = ({ title, src, acquired, description }) => {
   const { t } = useTranslation();
   return (
     <div className="card">
@@ -12,14 +19,16 @@ export const SkillCard: FC = () => {
           width: 20px;
         `}
         className="card-img-top"
-        src="https://www.pierrebaptistebouillon.com/themes/pb/assets/img/logos/angular.svg"
+        src={src}
         alt="Card image cap"
       />
       <div className="card-body">
-        <h5 className="card-title">Software</h5>
-        <p className="card-text">
-          This is a sample test while I implement some good ol&apos; data
-        </p>
+        <h5 className="card-title">{title}</h5>
+        {description.map((description, key) => (
+          <p className="card-text" key={key}>
+            {description}
+          </p>
+        ))}
       </div>
       <div className="card-footer">
         <div>
@@ -33,20 +42,18 @@ export const SkillCard: FC = () => {
               text-align: left;
             `}
           >
-            <li
-              css={css`
-                font-family: SourceSansProRegular, serif;
-                padding-left: 40px;
-              `}
-            >
-              <i className="fa fa-circle"></i> Sample 1
-            </li>
-            <li>
-              <i className="fa fa-circle"></i> Sample 2
-            </li>
-            <li>
-              <i className="fa fa-circle"></i> Sample 3
-            </li>
+            {acquired.map((acquired, key) => (
+              <li
+                key={key}
+                css={css`
+                  font-family: SourceSansProRegular, serif;
+                  padding-left: 40px;
+                `}
+              >
+                <i className="fa fa-circle"></i>
+                {acquired}
+              </li>
+            ))}
           </ul>
         </div>
       </div>
