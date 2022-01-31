@@ -25,7 +25,27 @@
   },
 
   "Skills": {
-    "title": "Mes compétences"
+    "title": "Mes compétences",
+    "softwares": [
+      {
+        "title": "FR VegasPro",
+        "src": "https://www.pierrebaptistebouillon.com/themes/pb/assets/img/logos/angular.svg",
+        "description": [
+          "FR Blablabla, I've worked too long on this",
+          "FR Stop this non-sense, please"
+        ],
+        "acquired": ["Talent1", "Talent2"]
+      },
+      {
+        "title": "FR photoshop",
+        "src": "https://www.pierrebaptistebouillon.com/themes/pb/assets/img/logos/angular.svg",
+        "description": [
+          "FR ssss, I've worked too long on this",
+          "FR sssss this non-sense, please"
+        ],
+        "acquired": ["rgr1", "grger2"]
+      }
+    ]
   },
 
   "Projects": {

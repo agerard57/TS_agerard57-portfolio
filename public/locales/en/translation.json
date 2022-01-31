@@ -3,7 +3,6 @@
     "confirmationMessage": "The website's language has been sucessfully set to English!",
     "deniedMessage": "The website's language was already set to English."
   },
-
   "LandingPage": {
     "greetingMessages": {
       "1": "Hello !",
@@ -19,23 +18,38 @@
       "3": "enjoy your visit!"
     }
   },
-
   "Presentation": {
     "title": "Presentation"
   },
-
   "Skills": {
-    "title": "My skills"
+    "title": "My skills",
+    "softwares": [
+      {
+        "title": "VegasPro",
+        "src": "https://www.pierrebaptistebouillon.com/themes/pb/assets/img/logos/angular.svg",
+        "description": [
+          "Blablabla, I've worked too long on this",
+          "Stop this non-sense, please"
+        ],
+        "acquired": ["Talent1", "Talent2"]
+      },
+      {
+        "title": "photoshop",
+        "src": "https://www.pierrebaptistebouillon.com/themes/pb/assets/img/logos/angular.svg",
+        "description": [
+          "ssss, I've worked too long on this",
+          "sssss this non-sense, please"
+        ],
+        "acquired": ["rgr1", "grger2"]
+      }
+    ]
   },
-
   "Projects": {
     "title": "My projects"
   },
-
   "Contact": {
     "title": "Contact me"
   },
-
   "Resume": {
     "title": "My Resume"
   }
