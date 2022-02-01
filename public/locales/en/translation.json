@@ -23,26 +23,84 @@
   },
   "Skills": {
     "title": "My skills",
-    "softwares": [
-      {
-        "title": "VegasPro",
-        "src": "https://www.pierrebaptistebouillon.com/themes/pb/assets/img/logos/angular.svg",
+    "softwares": {
+      "ae": {
+        "title": "After Effect",
+        "src": "https://images.tuto.net/blog/after-effects-cs6-logo.png",
         "description": [
-          "Blablabla, I've worked too long on this",
-          "Stop this non-sense, please"
+          "3 years of experience",
+          "Video Editing software",
+          "Used for personal purposes in a short film"
         ],
-        "acquired": ["Talent1", "Talent2"]
+        "acquired": ["Video Editing"]
       },
-      {
-        "title": "photoshop",
-        "src": "https://www.pierrebaptistebouillon.com/themes/pb/assets/img/logos/angular.svg",
+      "blender": {
+        "title": "Blender",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Blender_logo_no_text.svg/2503px-Blender_logo_no_text.svg.png",
         "description": [
-          "ssss, I've worked too long on this",
-          "sssss this non-sense, please"
+          "2 years of experience",
+          "3D Animation software",
+          "Used for personal purposes",
+          "Production logo creation"
         ],
-        "acquired": ["rgr1", "grger2"]
+        "acquired": ["3D Animation"]
+      },
+      "fls": {
+        "title": "FL Studio",
+        "src": "https://upload.wikimedia.org/wikipedia/fr/e/ef/FL-Studio-12-Logo.png",
+        "description": [
+          "4 years of experience",
+          "Music Creation software",
+          "Used for personal purposes in musical production"
+        ],
+        "acquired": ["Music Production", "Several personnal productions made"]
+      },
+      "git": {
+        "title": "GIT",
+        "src": "http://assets.stickpng.com/images/5847f981cef1014c0b5e48be.png",
+        "description": ["5 years of experience", "Version control software"],
+        "acquired": ["Used in the majority of projects made"]
+      },
+      "mso": {
+        "title": "Microsoft Office",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Microsoft_Office_logo_%282019%E2%80%93present%29.svg/1200px-Microsoft_Office_logo_%282019%E2%80%93present%29.svg.png",
+        "description": ["Mastery in Office softwares", "Especially PowerPoint"],
+        "acquired": [
+          "Mastery of Excel",
+          "Mastery of Powerpoint",
+          "Mastery of Word"
+        ]
+      },
+      "psd": {
+        "title": "Adobe Photoshop",
+        "src": "https://logo-marque.com/wp-content/uploads/2020/11/Adobe-Photoshop-Logo.png",
+        "description": [
+          "9 years of experience",
+          "Photo Editing software",
+          "Mastered"
+        ],
+        "acquired": [
+          "Photo Edition",
+          "Multiple advertisements for commercial purposes",
+          "Multiple projects (personnal purposes)"
+        ]
+      },
+      "veg": {
+        "title": "Vegas Pro",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Vegas_Pro_19.svg/1200px-Vegas_Pro_19.svg.png",
+        "description": [
+          "10 years of experience",
+          "Video Editing software",
+          "Mastered"
+        ],
+        "acquired": [
+          "Video Editing",
+          "Multiple short films",
+          "1 self-produced feature film",
+          "Multiple advertisements for commercial purposes"
+        ]
       }
-    ]
+    }
   },
   "Projects": {
     "title": "My projects"
