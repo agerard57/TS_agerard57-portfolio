@@ -5,18 +5,22 @@ import { SkillCard } from "./SkillCard";
 
 export const SoftUsed: FC = () => {
   const { t } = useTranslation();
-  const fruits: Array<string> = ["Apple", "Orange", "Banana", "Kiwi"];
+  const softwares = ["ae", "blender", "fls", "git", "mso", "psd", "veg"];
+
   return (
     <div className="container">
       <div className="card-group">
-        <SkillCard
-          title={"Powerpoint"}
-          src={
-            "https://www.pierrebaptistebouillon.com/themes/pb/assets/img/logos/angular.svg"
-          }
-          description={fruits}
-          acquired={fruits}
-        />
+        {softwares.map((key) => (
+          <SkillCard
+            title={t("Skills.softwares." + t(["days", key]) + ".title")}
+            src={t("Skills.softwares." + t(["days", key]) + ".src")}
+            key={key}
+            description={t(
+              "Skills.softwares." + t(["days", key]) + ".description"
+            )}
+            acquired={t("Skills.softwares." + t(["days", key]) + ".acquired")}
+          />
+        ))}
       </div>
     </div>
   );
