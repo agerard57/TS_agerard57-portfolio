@@ -13,6 +13,7 @@ export const Flags: FC = () => {
   return (
     <div
       css={css`
+        z-index: 1;
         position: fixed;
         padding: 1vw 0 0 3vw;
         text-align: left;
