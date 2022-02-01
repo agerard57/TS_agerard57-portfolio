@@ -10,49 +10,83 @@ type Props = {
 };
 
 export const SkillCard: FC<Props> = ({ title, src, acquired, description }) => (
-  <div className="card">
-    <img
-      css={css`
-        width: 20px;
-      `}
-      className="card-img-top"
-      src={src}
-      alt="Card image cap"
-    />
-    <div className="card-body">
-      <h5 className="card-title">{title}</h5>
-      {description.map((description, key) => (
-        <p className="card-text" key={key}>
-          {description}
-        </p>
-      ))}
-    </div>
-    <div className="card-footer">
-      <div>
-        <ul
+  <div
+    className="col l3 m6 s6"
+    css={css`
+      margin-bottom: 20px;
+    `}
+  >
+    <div>
+      <img
+        src={src}
+        css={css`
+          width: 65px;
+          height: 65px;
+          margin: 0 auto;
+        `}
+      />
+      <div
+        className="details"
+        css={css`
+          width: 90%;
+          padding-top: 22px;
+          padding-bottom: 20px;
+          margin: 0 auto;
+          margin-top: -30px;
+          background: #eaeaea;
+          border: 1px solid rgba(72, 72, 72, 0.22);
+          border-bottom: transparent;
+        `}
+      >
+        <h1
           css={css`
-            width: 90%;
-            margin: 0 auto;
-            padding-top: 16px;
-            padding-bottom: 18px;
-            color: rgba(70, 70, 70, 0.74);
-            text-align: left;
+            font-size: 16px;
+            margin-top: 20px;
+            margin-bottom: 12px;
+            letter-spacing: 2px;
+            font-family: ProximaBold, serif;
+            text-transform: uppercase;
           `}
         >
-          {acquired.map((acquired, key) => (
-            <li
-              key={key}
-              css={css`
-                font-family: SourceSansProRegular, serif;
-                padding-left: 40px;
-              `}
-            >
-              <i className="fa fa-circle"></i>
-              {acquired}
-            </li>
-          ))}
-        </ul>
+          {title}
+        </h1>
+        {description.map((description, key) => (
+          <p
+            key={key}
+            css={css`
+              width: 90%;
+              margin: 0 auto;
+              font-family: SourceSansProRegular, serif;
+              color: #848484;
+            `}
+          >
+            {description}
+          </p>
+        ))}
       </div>
+      <ul
+        css={css`
+          width: 90%;
+          margin: 0 auto;
+          background: #484848;
+          padding-top: 16px;
+          padding-bottom: 18px;
+          color: rgba(255, 255, 255, 0.74);
+          text-align: left;
+        `}
+      >
+        {acquired.map((acquired, key) => (
+          <li
+            key={key}
+            css={css`
+              font-family: SourceSansProRegular, serif;
+              padding-left: 40px;
+            `}
+          >
+            <i className="fa fa-circle"></i> {acquired}
+          </li>
+        ))}
+      </ul>
     </div>
   </div>
 );
