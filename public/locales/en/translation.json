@@ -29,7 +29,6 @@
     "softwares": {
       "ae": {
         "title": "After Effect",
-        "src": "https://images.tuto.net/blog/after-effects-cs6-logo.png",
         "description": [
           "3 years of experience",
           "Video Editing software",
@@ -39,7 +38,6 @@
       },
       "blender": {
         "title": "Blender",
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Blender_logo_no_text.svg/2503px-Blender_logo_no_text.svg.png",
         "description": [
           "2 years of experience",
           "3D Animation software",
@@ -50,7 +48,6 @@
       },
       "fls": {
         "title": "FL Studio",
-        "src": "https://upload.wikimedia.org/wikipedia/fr/e/ef/FL-Studio-12-Logo.png",
         "description": [
           "4 years of experience",
           "Music Creation software",
@@ -60,13 +57,11 @@
       },
       "git": {
         "title": "GIT",
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Git_icon.svg/1024px-Git_icon.svg.png",
         "description": ["5 years of experience", "Version control software"],
         "acquired": ["Used in the majority of projects made"]
       },
       "mso": {
         "title": "Microsoft Office",
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Microsoft_Office_logo_%282019%E2%80%93present%29.svg/1200px-Microsoft_Office_logo_%282019%E2%80%93present%29.svg.png",
         "description": ["Mastery in Office softwares", "Especially PowerPoint"],
         "acquired": [
           "Mastery of Excel",
@@ -76,7 +71,6 @@
       },
       "psd": {
         "title": "Adobe Photoshop",
-        "src": "https://logo-marque.com/wp-content/uploads/2020/11/Adobe-Photoshop-Logo.png",
         "description": [
           "9 years of experience",
           "Photo Editing software",
@@ -90,7 +84,6 @@
       },
       "veg": {
         "title": "Vegas Pro",
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Vegas_Pro_19.svg/1200px-Vegas_Pro_19.svg.png",
         "description": [
           "10 years of experience",
           "Video Editing software",

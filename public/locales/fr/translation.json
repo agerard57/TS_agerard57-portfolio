@@ -32,7 +32,6 @@
     "softwares": {
       "ae": {
         "title": "After Effect",
-        "src": "https://images.tuto.net/blog/after-effects-cs6-logo.png",
         "description": [
           "3 ans d'expérience",
           "Logiciel de montage vidéo",
@@ -42,7 +41,6 @@
       },
       "blender": {
         "title": "Blender",
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Blender_logo_no_text.svg/2503px-Blender_logo_no_text.svg.png",
         "description": [
           "2 ans d'expérience",
           "Logiciel d'animation 3D",
@@ -53,7 +51,6 @@
       },
       "fls": {
         "title": "FL Studio",
-        "src": "https://upload.wikimedia.org/wikipedia/fr/e/ef/FL-Studio-12-Logo.png",
         "description": [
           "4 ans d'expérience",
           "Logiciel de production de musique",
@@ -63,7 +60,6 @@
       },
       "git": {
         "title": "GIT",
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Git_icon.svg/1024px-Git_icon.svg.png",
         "description": [
           "5 ans d'expérience",
           "Logiciel de gestion de versions"
@@ -72,7 +68,6 @@
       },
       "mso": {
         "title": "Microsoft Office",
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Microsoft_Office_logo_%282019%E2%80%93present%29.svg/1200px-Microsoft_Office_logo_%282019%E2%80%93present%29.svg.png",
         "description": [
           "Maîtrise de la suite office",
           "Particulièrement PowerPoint"
@@ -85,7 +80,6 @@
       },
       "psd": {
         "title": "Adobe Photoshop",
-        "src": "https://logo-marque.com/wp-content/uploads/2020/11/Adobe-Photoshop-Logo.png",
         "description": [
           "9 ans d'expérience",
           "Logiciel de montage photo",
@@ -101,7 +95,6 @@
       },
       "veg": {
         "title": "Vegas Pro",
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Vegas_Pro_19.svg/1200px-Vegas_Pro_19.svg.png",
         "description": [
           "10 ans d'expérience",
           "Logiciel de montage vidéo",
