@@ -29,12 +29,10 @@ export const SoftUsed: FC = () => {
         {softwares.map((key) => (
           <SkillCard
             key={key}
-            title={t("Skills.softwares." + t(["days", key]) + ".title")}
-            src={t("Skills.softwares." + t(["days", key]) + ".src")}
-            description={t(
-              "Skills.softwares." + t(["days", key]) + ".description"
-            )}
-            acquired={t("Skills.softwares." + t(["days", key]) + ".acquired")}
+            title={t("Skills.softwares." + key + ".title")}
+            src={t("Skills.softwares." + key + ".src")}
+            description={t("Skills.softwares." + key + ".description")}
+            acquired={t("Skills.softwares." + key + ".acquired")}
           />
         ))}
       </div>
