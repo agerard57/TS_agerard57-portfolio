@@ -27,9 +27,10 @@
   "Skills": {
     "title": "Mes compétences",
     "parts": {
-      "software": "Logiciels utilisés"
+      "software": "Logiciels utilisés",
+      "language": "Langages utilisés"
     },
-    "softwares": {
+    "software": {
       "ae": {
         "title": "After Effect",
         "description": [
@@ -121,6 +122,19 @@
           "Multiples Court-Métrages",
           "1 Long-Métrage auto-produit",
           "Multiples publicités à but commercial"
+        ]
+      }
+    },
+    "language": {
+      "js": {
+        "title": "JavaScript",
+        "description": ["ddd", "ddd", "sq logiciel"],
+        "acquired": [
+          "Monsdtage vidéo",
+          "Maîtsdrise du logiciel",
+          "Multisqdples Court-Métrages",
+          "1 Longsqd-Métrage auto-produit",
+          "Multiplsdes publicités à but commercial"
         ]
       }
     }

@@ -8,7 +8,19 @@ import msoLogo from "./office-logo.svg";
 import psdLogo from "./photoshop-logo.svg";
 import vegasProLogo from "./vegas-pro-logo.svg";
 
-export const softwareLogos: Record<string, string> = {
+export const softwaresLogos: Record<string, string> = {
+  ae: afterEffectsLogo,
+  blender: blenderLogo,
+  fls: flsLogo,
+  git: gitLogo,
+  mso: msoLogo,
+  obs: obsLogo,
+  psd: psdLogo,
+  veg: vegasProLogo,
+};
+
+
+export const softwaresLogos: Record<string, string> = {
   ae: afterEffectsLogo,
   blender: blenderLogo,
   fls: flsLogo,

@@ -3,20 +3,22 @@ import { css } from "@emotion/react";
 import { FC } from "react";
 import { useTranslation } from "react-i18next";
 
-import { softwareLogos } from "../assets";
+import { languagesLogo } from "../assets";
+import { softwaresLogos } from "../assets";
 
 type Props = {
-  software: string;
+  skillType: string;
+  skillName: string;
 };
 
-export const SkillCard: FC<Props> = ({ software }) => {
+export const SkillCard: FC<Props> = ({ skillType, skillName }) => {
   const { t } = useTranslation();
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  const softwareLinkBuilder: any = (type: string) =>
-    t("Skills.softwares." + software + "." + type);
-  const title = softwareLinkBuilder("title");
-  const description: string[] = softwareLinkBuilder("description");
-  const acquired: string[] = softwareLinkBuilder("acquired");
+  const linkBuilder: any = (type: string) =>
+    t("Skills." + skillType + "." + skillName + "." + type);
+  const title = linkBuilder("title");
+  const description: string[] = linkBuilder("description");
+  const acquired: string[] = linkBuilder("acquired");
 
   return (
     <div
@@ -27,7 +29,11 @@ export const SkillCard: FC<Props> = ({ software }) => {
     >
       <div>
         <img
-          src={softwareLogos[software]}
+          src={
+            skillType === "software"
+              ? softwaresLogos[skillName]
+              : languagesLogo[skillName]
+          }
           css={css`
             width: 65px;
             height: 65px;
