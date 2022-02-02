@@ -1,4 +1,6 @@
 /** @jsxImportSource @emotion/react */
+// eslint-disable-next-line import/no-internal-modules
+import "bootstrap/dist/css/bootstrap.min.css";
 import { FC, Suspense } from "react";
 import { ToastProvider } from "react-toast-notifications";
 

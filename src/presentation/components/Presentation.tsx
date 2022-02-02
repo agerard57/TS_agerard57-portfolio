@@ -4,7 +4,7 @@ import { FC } from "react";
 import { useTranslation } from "react-i18next";
 
 import { BackgroundVideo, BlueBorderBackground, PageTitle } from "../../core";
-import { PartTitle } from "./PartTitle";
+import { PartTitle } from "../../core";
 
 export const Presentation: FC = () => {
   const { t } = useTranslation();

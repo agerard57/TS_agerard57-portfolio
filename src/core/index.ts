@@ -4,4 +4,5 @@ export {
   Logo,
   Layout,
   PageTitle,
+  PartTitle,
 } from "./components";

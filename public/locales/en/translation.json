@@ -3,7 +3,6 @@
     "confirmationMessage": "The website's language has been sucessfully set to English!",
     "deniedMessage": "The website's language was already set to English."
   },
-
   "LandingPage": {
     "greetingMessages": {
       "1": "Hello !",
@@ -19,23 +18,99 @@
       "3": "enjoy your visit!"
     }
   },
-
   "Presentation": {
     "title": "Presentation"
   },
-
   "Skills": {
-    "title": "My skills"
+    "title": "My skills",
+    "parts": {
+      "software": "Software used"
+    },
+    "softwares": {
+      "ae": {
+        "title": "After Effect",
+        "src": "https://images.tuto.net/blog/after-effects-cs6-logo.png",
+        "description": [
+          "3 years of experience",
+          "Video Editing software",
+          "Used for personal purposes in a short film"
+        ],
+        "acquired": ["Video Editing"]
+      },
+      "blender": {
+        "title": "Blender",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Blender_logo_no_text.svg/2503px-Blender_logo_no_text.svg.png",
+        "description": [
+          "2 years of experience",
+          "3D Animation software",
+          "Used for personal purposes",
+          "Production logo creation"
+        ],
+        "acquired": ["3D Animation"]
+      },
+      "fls": {
+        "title": "FL Studio",
+        "src": "https://upload.wikimedia.org/wikipedia/fr/e/ef/FL-Studio-12-Logo.png",
+        "description": [
+          "4 years of experience",
+          "Music Creation software",
+          "Used for personal purposes in musical production"
+        ],
+        "acquired": ["Music Production", "Several personnal productions made"]
+      },
+      "git": {
+        "title": "GIT",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Git_icon.svg/1024px-Git_icon.svg.png",
+        "description": ["5 years of experience", "Version control software"],
+        "acquired": ["Used in the majority of projects made"]
+      },
+      "mso": {
+        "title": "Microsoft Office",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Microsoft_Office_logo_%282019%E2%80%93present%29.svg/1200px-Microsoft_Office_logo_%282019%E2%80%93present%29.svg.png",
+        "description": ["Mastery in Office softwares", "Especially PowerPoint"],
+        "acquired": [
+          "Mastery of Excel",
+          "Mastery of Powerpoint",
+          "Mastery of Word"
+        ]
+      },
+      "psd": {
+        "title": "Adobe Photoshop",
+        "src": "https://logo-marque.com/wp-content/uploads/2020/11/Adobe-Photoshop-Logo.png",
+        "description": [
+          "9 years of experience",
+          "Photo Editing software",
+          "Mastered"
+        ],
+        "acquired": [
+          "Photo Edition",
+          "Multiple advertisements for commercial purposes",
+          "Multiple projects (personnal purposes)"
+        ]
+      },
+      "veg": {
+        "title": "Vegas Pro",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Vegas_Pro_19.svg/1200px-Vegas_Pro_19.svg.png",
+        "description": [
+          "10 years of experience",
+          "Video Editing software",
+          "Mastered"
+        ],
+        "acquired": [
+          "Video Editing",
+          "Multiple short films",
+          "1 self-produced feature film",
+          "Multiple advertisements for commercial purposes"
+        ]
+      }
+    }
   },
-
   "Projects": {
     "title": "My projects"
   },
-
   "Contact": {
     "title": "Contact me"
   },
-
   "Resume": {
     "title": "My Resume"
   }

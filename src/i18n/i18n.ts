@@ -12,6 +12,7 @@ i18n
     fallbackLng: "en",
     preload: ["en", "fr"],
     interpolation: { escapeValue: false },
+    returnObjects: true,
     react: {
       bindI18n: "languageChanged",
     },
