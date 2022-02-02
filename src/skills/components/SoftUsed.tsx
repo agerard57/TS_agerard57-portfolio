@@ -3,7 +3,6 @@ import { css } from "@emotion/react";
 import { FC } from "react";
 import { useTranslation } from "react-i18next";
 
-import { softwareLogos } from "../assets";
 import { SkillCard } from "./SkillCard";
 
 export const SoftUsed: FC = () => {
@@ -27,13 +26,7 @@ export const SoftUsed: FC = () => {
         `}
       >
         {softwares.map((key) => (
-          <SkillCard
-            key={key}
-            title={t("Skills.softwares." + key + ".title")}
-            src={t("Skills.softwares." + key + ".src")}
-            description={t("Skills.softwares." + key + ".description")}
-            acquired={t("Skills.softwares." + key + ".acquired")}
-          />
+          <SkillCard key={key} software={key} />
         ))}
       </div>
     </div>
