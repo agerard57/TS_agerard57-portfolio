@@ -1,12 +1,10 @@
 /** @jsxImportSource @emotion/react */
 import { css } from "@emotion/react";
 import { FC } from "react";
-import { useTranslation } from "react-i18next";
 
 import { SkillCard } from "./SkillCard";
 
 export const SoftUsed: FC = () => {
-  const { t } = useTranslation();
   const softwares = ["ae", "blender", "fls", "git", "mso", "psd", "veg"];
 
   return (
