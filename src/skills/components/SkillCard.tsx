@@ -11,8 +11,9 @@ type Props = {
 
 export const SkillCard: FC<Props> = ({ title, src, acquired, description }) => (
   <div
-    className="col l3 m6 s6"
+    className="col-sm-6"
     css={css`
+      font-size: medium;
       margin-bottom: 20px;
     `}
   >
@@ -28,7 +29,7 @@ export const SkillCard: FC<Props> = ({ title, src, acquired, description }) => (
       <div
         className="details"
         css={css`
-          width: 90%;
+          width: 80%;
           padding-top: 22px;
           padding-bottom: 20px;
           margin: 0 auto;
