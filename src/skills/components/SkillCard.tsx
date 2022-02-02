@@ -28,7 +28,7 @@ export const SkillCard: FC<Props> = ({ software }) => {
     >
       <div>
         <img
-          src={t("Skills.softwares." + software + ".src")}
+          src={softwareLogos[software]}
           css={css`
             width: 65px;
             height: 65px;
