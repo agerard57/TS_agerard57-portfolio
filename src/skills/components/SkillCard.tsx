@@ -22,7 +22,6 @@ export const SkillCard: FC<Props> = ({ software }) => {
     <div
       className="col-sm-6"
       css={css`
-        font-size: medium;
         margin-bottom: 20px;
       `}
     >
@@ -36,7 +35,6 @@ export const SkillCard: FC<Props> = ({ software }) => {
           `}
         />
         <div
-          className="details"
           css={css`
             width: 80%;
             padding-top: 22px;
@@ -48,18 +46,18 @@ export const SkillCard: FC<Props> = ({ software }) => {
             border-bottom: transparent;
           `}
         >
-          <h1
+          <h2
             css={css`
-              font-size: 16px;
+              font-size: 18px;
               margin-top: 20px;
               margin-bottom: 12px;
               letter-spacing: 2px;
-              font-family: ProximaBold, serif;
+              font-family: "Archia-Regular";
               text-transform: uppercase;
             `}
           >
             {title}
-          </h1>
+          </h2>
           {description.map((description, key) => (
             <p
               key={key}
@@ -67,6 +65,7 @@ export const SkillCard: FC<Props> = ({ software }) => {
                 width: 90%;
                 margin: 0 auto;
                 font-family: SourceSansProRegular, serif;
+                font-size: medium;
                 color: #848484;
               `}
             >
@@ -90,6 +89,7 @@ export const SkillCard: FC<Props> = ({ software }) => {
               key={key}
               css={css`
                 font-family: SourceSansProRegular, serif;
+                font-size: medium;
                 padding-left: 40px;
               `}
             >
