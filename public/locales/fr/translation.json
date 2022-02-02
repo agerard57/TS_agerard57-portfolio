@@ -26,6 +26,9 @@
 
   "Skills": {
     "title": "Mes compétences",
+    "parts": {
+      "software": "Logiciels utilisés"
+    },
     "softwares": {
       "ae": {
         "title": "After Effect",

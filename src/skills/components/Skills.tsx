@@ -12,7 +12,7 @@ export const Skills: FC = () => {
       <BlueBorderBackground backgroundColor={"transparent"}>
         <BackgroundVideo />
         <PageTitle title={t("Skills.title")} />
-        <PartTitle title={"Software used"} />
+        <PartTitle title={t("Skills.parts.software")} />
         <SoftUsed />
       </BlueBorderBackground>
     </>
