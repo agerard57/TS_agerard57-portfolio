@@ -69,8 +69,23 @@
           "Mastery of Word"
         ]
       },
+      "obs": {
+        "title": "OBS",
+        "description": [
+          "6 years of experience",
+          "Live streaming software",
+          "Controlled with WebSocket in a project",
+          "Mastered"
+        ],
+        "acquired": [
+          "Streaming",
+          "Live",
+          "Personnal and professional usage",
+          "WebSocket"
+        ]
+      },
       "psd": {
-        "title": "Adobe Photoshop",
+        "title": "Photoshop",
         "description": [
           "9 years of experience",
           "Photo Editing software",

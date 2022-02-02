@@ -5,7 +5,7 @@ import { FC } from "react";
 import { SkillCard } from "./SkillCard";
 
 export const SoftUsed: FC = () => {
-  const softwares = ["ae", "blender", "fls", "git", "mso", "psd", "veg"];
+  const softwares = ["ae", "blender", "fls", "git", "mso", "obs", "psd", "veg"];
 
   return (
     <div

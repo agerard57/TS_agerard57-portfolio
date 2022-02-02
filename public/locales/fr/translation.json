@@ -69,7 +69,7 @@
       "mso": {
         "title": "Microsoft Office",
         "description": [
-          "Maîtrise de la suite office",
+          "Maîtrise de la suite Office",
           "Particulièrement PowerPoint"
         ],
         "acquired": [
@@ -78,8 +78,23 @@
           "Maîtrise de Word"
         ]
       },
+      "obs": {
+        "title": "OBS",
+        "description": [
+          "6 ans d'expérience",
+          "Logiciel de diffusion en direct",
+          "Contrôlé avec WebSocket dans un projet",
+          "Maîtrise du logiciel"
+        ],
+        "acquired": [
+          "Streaming",
+          "Live",
+          "Utilisation personnelle et professionnelle",
+          "WebSocket"
+        ]
+      },
       "psd": {
-        "title": "Adobe Photoshop",
+        "title": "Photoshop",
         "description": [
           "9 ans d'expérience",
           "Logiciel de montage photo",
@@ -87,7 +102,7 @@
         ],
         "acquired": [
           "Montage photo",
-          "Maîtrise",
+          "Maîtrise du logiciel",
           "Multiples publicités à but commercial",
           "Multiples projets personnels",
           "Multiples création d'identités de marque"
@@ -98,11 +113,11 @@
         "description": [
           "10 ans d'expérience",
           "Logiciel de montage vidéo",
-          "Maîtrise"
+          "Maîtrise du logiciel"
         ],
         "acquired": [
           "Montage vidéo",
-          "Maîtrise",
+          "Maîtrise du logiciel",
           "Multiples Court-Métrages",
           "1 Long-Métrage auto-produit",
           "Multiples publicités à but commercial"
