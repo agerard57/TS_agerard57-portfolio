@@ -8,7 +8,18 @@ import { SkillsGrid } from "./SkillsGrid";
 export const Skills: FC = () => {
   const { t } = useTranslation();
   const softwares = ["ae", "blender", "fls", "git", "mso", "obs", "psd", "veg"];
-  const languages = ["js"];
+  const languages = [
+    "asm",
+    "bash",
+    "cpp",
+    "htmlCss",
+    "php",
+    "python",
+    "java",
+    "js",
+    "ts",
+    "sql",
+  ];
 
   return (
     <>

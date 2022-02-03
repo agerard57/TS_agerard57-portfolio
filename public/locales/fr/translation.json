@@ -126,21 +126,92 @@
       }
     },
     "language": {
+      "asm": {
+        "title": "Assembleur",
+        "description": [
+          "3 ans d'expérience",
+          "Utilisé dans 2 projets",
+          "Apprentissage en pause"
+        ],
+        "acquired": ["Intel X86", "DosBox"]
+      },
+      "bash": {
+        "title": "Bash",
+        "description": [
+          "6 ans d'expérience",
+          "Utilisé tous les jours",
+          "En cours d'enseignement"
+        ],
+        "acquired": ["Serveurs", "Scripting", "SysAdmin"]
+      },
+      "cpp": {
+        "title": "C++",
+        "description": ["6 ans d'expérience", "Utilisé dans + de7 projets"],
+        "acquired": ["Arduino", "Programmation physique"]
+      },
+      "htmlCss": {
+        "title": "HTML / CSS",
+        "description": [
+          "7 ans d'expérience",
+          "Utilisé dans + de 11 projets",
+          "En cours d'enseignement"
+        ],
+        "acquired": ["HTML5", "CSS/SASS", "XML", "YAML"]
+      },
+      "php": {
+        "title": "PHP",
+        "description": [
+          "4 ans d'expérience",
+          "Utilisé dans + de 4 projets",
+          "Apprentissage en pause"
+        ],
+        "acquired": ["Symfony", "XAMPP"]
+      },
+      "python": {
+        "title": "Python",
+        "description": [
+          "5 ans d'expérience",
+          "Utilisé dans + de 6 projets",
+          "En cours d'enseignement"
+        ],
+        "acquired": ["Tkinter", "Bot Discord", "RaspberryPi"]
+      },
+      "java": {
+        "title": "Java",
+        "description": [
+          "3 ans d'expérience",
+          "Utilisé dans + de 3 projets",
+          "Apprentissage en pause"
+        ],
+        "acquired": ["JDBC", "Scene builder", "JavaFX", "MVC"]
+      },
       "js": {
         "title": "JavaScript",
-        "description": ["ddd", "ddd", "sq logiciel"],
-        "acquired": [
-          "Monsdtage vidéo",
-          "Maîtsdrise du logiciel",
-          "Multisqdples Court-Métrages",
-          "1 Longsqd-Métrage auto-produit",
-          "Multiplsdes publicités à but commercial"
-        ]
+        "description": ["3 ans d'expérience", "Utilisé dans + de 3 projets"],
+        "acquired": ["React", "Node.js", "i18n", "@emotion/react"]
+      },
+      "ts": {
+        "title": "TypeScript",
+        "description": [
+          "3 ans d'expérience",
+          "Currently my \"main language\"",
+          "Utilisé dans + de 3 projets"
+        ],
+        "acquired": ["React", "Node.js", "i18n", "@emotion/react"]
+      },
+      "sql": {
+        "title": "S.Q.L.",
+        "description": [
+          "5 ans d'expérience",
+          "Utilisé dans + de 4 projets",
+          "En cours d'enseignement"
+        ],
+        "acquired": ["MySql", "MongoDB"]
       }
     }
   },
 
-  "Projects": {
+  "projets": {
     "title": "Mes projets"
   },
 

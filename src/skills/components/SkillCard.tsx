@@ -3,7 +3,7 @@ import { css } from "@emotion/react";
 import { FC } from "react";
 import { useTranslation } from "react-i18next";
 
-import { languagesLogo } from "../assets";
+import { languagesLogos } from "../assets";
 import { softwaresLogos } from "../assets";
 
 type Props = {
@@ -32,7 +32,7 @@ export const SkillCard: FC<Props> = ({ skillType, skillName }) => {
           src={
             skillType === "software"
               ? softwaresLogos[skillName]
-              : languagesLogo[skillName]
+              : languagesLogos[skillName]
           }
           css={css`
             width: 65px;
