@@ -6,7 +6,7 @@ import { PartTitle } from "../../core";
 import { SkillsGrid } from "./SkillsGrid";
 
 export const Skills: FC = () => {
-  const { t } = useTranslation();
+  const { t } = useTranslation("skills");
   const softwares = ["ae", "blender", "fls", "git", "mso", "obs", "psd", "veg"];
   const languages = [
     "asm",
@@ -25,10 +25,10 @@ export const Skills: FC = () => {
     <>
       <BlueBorderBackground backgroundColor={"transparent"}>
         <BackgroundVideo />
-        <PageTitle title={t("Skills.title")} />
-        <PartTitle title={t("Skills.parts.software")} />
+        <PageTitle title={t("title")} />
+        <PartTitle title={t("parts.software")} />
         <SkillsGrid skillType="software" skillArray={softwares} />
-        <PartTitle title={t("Skills.parts.language")} />
+        <PartTitle title={t("parts.language")} />
         <SkillsGrid skillType="language" skillArray={languages} />
       </BlueBorderBackground>
     </>

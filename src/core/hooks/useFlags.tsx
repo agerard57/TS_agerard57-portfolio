@@ -6,18 +6,18 @@ type ToastManager = {
   onClick(lng: string): void;
 };
 export const useFlags = (): ToastManager => {
-  const { t } = useTranslation();
+  const { t } = useTranslation("core");
   const { addToast } = useToasts();
   const onClick = (lng: string) => {
     const isSameLang = i18next.language === lng;
     const toasterLangManager = isSameLang
-      ? addToast(t("Core.deniedMessage"), {
+      ? addToast(t("deniedMessage"), {
           appearance: "info",
           autoDismiss: true,
           autoDismissTimeout: 3000,
         })
       : (changeLanguage(lng),
-        addToast(t("Core.confirmationMessage"), {
+        addToast(t("confirmationMessage"), {
           appearance: "success",
           autoDismiss: true,
           autoDismissTimeout: 3000,

@@ -1,0 +1,11 @@
+{
+  "titles": {
+    "presentation": "Présentation",
+    "skills": "Mes compétences",
+    "projects": "Mes projets",
+    "contact": "Me contacter",
+    "resume": "Mon CV"
+  },
+  "confirmationMessage": "La langue du site a bien été changée en Francais !",
+  "deniedMessage": "La langue du site est déjà en Francais."
+}

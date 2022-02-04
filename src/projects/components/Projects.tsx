@@ -4,12 +4,12 @@ import { useTranslation } from "react-i18next";
 import { BackgroundVideo, BlueBorderBackground, PageTitle } from "../../core";
 
 export const Projects: FC = () => {
-  const { t } = useTranslation();
+  const { t } = useTranslation("projects");
   return (
     <>
       <BlueBorderBackground backgroundColor={"transparent"}>
         <BackgroundVideo />
-        <PageTitle title={t("Projects.title")} />
+        <PageTitle title={t("title")} />
       </BlueBorderBackground>
     </>
   );

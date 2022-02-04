@@ -10,7 +10,7 @@ type Props = {
 export const LandingPageDescription: FC<Props> = ({
   hasTypeWriterLoopEndedOnce,
 }) => {
-  const { t } = useTranslation();
+  const { t } = useTranslation("landingPage");
   return (
     <div
       css={css`
@@ -44,13 +44,13 @@ export const LandingPageDescription: FC<Props> = ({
         }
       `}
     >
-      <p>{t("LandingPage.description.1")}</p>
+      <p>{t("description.1")}</p>
       <p>
-        <Link to="/skills">{t("LandingPage.description.2.link")}</Link>
-        {t("LandingPage.description.2.text")}
+        <Link to="/skills">{t("description.2.link")}</Link>
+        {t("description.2.text")}
       </p>
       <p>
-        <b>{t("LandingPage.description.3")}</b>
+        <b>{t("description.3")}</b>
       </p>
     </div>
   );

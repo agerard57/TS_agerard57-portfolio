@@ -12,10 +12,10 @@ type Props = {
 };
 
 export const SkillCard: FC<Props> = ({ skillType, skillName }) => {
-  const { t } = useTranslation();
+  const { t } = useTranslation("skills");
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const linkBuilder: any = (type: string) =>
-    t("Skills." + skillType + "." + skillName + "." + type);
+    t(skillType + "." + skillName + "." + type);
   const title = linkBuilder("title");
   const description: string[] = linkBuilder("description");
   const acquired: string[] = linkBuilder("acquired");
