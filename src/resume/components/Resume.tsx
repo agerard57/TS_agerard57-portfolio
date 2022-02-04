@@ -6,12 +6,12 @@ import { BlueBorderBackground, BackgroundVideo, PageTitle } from "../../core";
 import { PdfDisplay } from "./PdfDisplay";
 
 export const Resume: FC = () => {
-  const { t } = useTranslation();
+  const { t } = useTranslation("resume");
   return (
     <>
       <BlueBorderBackground backgroundColor={"transparent"}>
         <BackgroundVideo />
-        <PageTitle title={t("Resume.title")} />
+        <PageTitle title={t("title")} />
         <PdfDisplay />
       </BlueBorderBackground>
     </>
