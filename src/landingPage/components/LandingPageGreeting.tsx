@@ -11,11 +11,11 @@ type Props = {
 export const LandingPageGreeting: FC<Props> = ({
   setHasTypeWriterLoopEndedOnce,
 }) => {
-  const { t } = useTranslation();
+  const { t } = useTranslation("landingPage");
   const array = [
-    t("LandingPage.greetingMessages.1"),
-    t("LandingPage.greetingMessages.2"),
-    t("LandingPage.greetingMessages.3"),
+    t("greetingMessages.1"),
+    t("greetingMessages.2"),
+    t("greetingMessages.3"),
   ];
   // for (const i; i < 4; i++)  TODO
   return (
