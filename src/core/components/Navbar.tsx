@@ -10,7 +10,7 @@ import { Logo } from "./Logo";
 /* TODO Add an arrow that displays the navbar when hovered */
 
 export const NavBar: FC = () => {
-  const { t } = useTranslation();
+  const { t } = useTranslation("core");
   const location = useLocation();
   const isHome = location.pathname === "/home";
   return (
@@ -81,14 +81,14 @@ export const NavBar: FC = () => {
             />
           </Link>
         )}
-        <Link to="/presentation">{t("Presentation.title")}</Link>
-        <Link to="/skills">{t("Skills.title")}</Link>
+        <Link to="/presentation">{t("titles.presentation")}</Link>
+        <Link to="/skills">{t("titles.skills")}</Link>
 
-        <Link to="/projects">{t("Projects.title")}</Link>
+        <Link to="/projects">{t("titles.projects")}</Link>
 
-        <Link to="/contact">{t("Contact.title")}</Link>
+        <Link to="/contact">{t("titles.contact")}</Link>
 
-        <Link to="/resume">{t("Resume.title")}</Link>
+        <Link to="/resume">{t("titles.resume")}</Link>
       </div>
     </div>
   );
