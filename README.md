@@ -10,3 +10,5 @@ What if I were to do something like a timer that sends mail like in the movies
 ## Todo
 
 Skills : SkillCard, make a dropdown when hovered on the black part
+Add robots.txt
+Change translation to yaml ?
