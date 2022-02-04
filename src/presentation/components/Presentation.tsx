@@ -7,7 +7,7 @@ import { BackgroundVideo, BlueBorderBackground, PageTitle } from "../../core";
 import { PartTitle } from "../../core";
 
 export const Presentation: FC = () => {
-  const { t } = useTranslation();
+  const { t } = useTranslation("presentation");
 
   return (
     <>
@@ -19,7 +19,7 @@ export const Presentation: FC = () => {
             width: 80%;
           `}
         >
-          <PageTitle title={t("Presentation.title")} />
+          <PageTitle title={t("title")} />
           <PartTitle title="MOI" profilePicture />
           {/* <ProfileDescription></ProfileDescription> */}
         </div>
