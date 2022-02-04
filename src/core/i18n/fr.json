@@ -6,6 +6,6 @@
     "contact": "Me contacter",
     "resume": "Mon CV"
   },
-  "confirmationMessage": "The website's language has been sucessfully set to English!",
-  "deniedMessage": "The website's language was already set to English."
+  "confirmationMessage": "La langue du site a bien été changée en Francais !",
+  "deniedMessage": "La langue du site est déjà en Francais."
 }
