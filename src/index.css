@@ -9,16 +9,19 @@
 @font-face {
   font-family: Archia-Regular;
   src: url(./core/fonts/Archia-Regular.otf);
+  font-display: swap;
 }
 
 @font-face {
   font-family: MonoLisa-Regular;
   src: url(./core/fonts/MonoLisa-Regular.otf);
+  font-display: swap;
 }
 
 @font-face {
   font-family: Bebas-Neue-Bold;
   src: url(./core/fonts/Bebas\ Neue\ Bold.otf);
+  font-display: swap;
 }
 
 button {
