@@ -34,6 +34,7 @@ export const SkillCard: FC<Props> = ({ skillType, skillName }) => {
               ? softwaresLogos[skillName]
               : languagesLogos[skillName]
           }
+          alt={title.toLowerCase().replace(" ", "_")}
           css={css`
             width: 65px;
             height: 65px;

@@ -13,7 +13,21 @@ export const BackgroundVideo: FC = () => (
       min-height: 100%;
     `}
   >
-    <video autoPlay loop muted>
+    <video
+      autoPlay
+      loop
+      muted
+      css={css`
+        position: fixed;
+        right: 0;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        min-height: 100vh;
+        min-width: 100vw;
+        z-index: -1;
+      `}
+    >
       <source src={"/assets/bg.mp4"} type="video/mp4" />
     </video>
   </div>
