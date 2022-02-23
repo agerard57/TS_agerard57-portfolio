@@ -2,7 +2,7 @@
 import { css } from "@emotion/react";
 import { FC } from "react";
 
-import { useFlags } from "../hooks";
+import { useFlags } from "../../hooks";
 import { EnglishFlag } from "./EnglishFlag";
 import { FrenchFlag } from "./FrenchFlag";
 
