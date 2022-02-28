@@ -47,9 +47,11 @@
 	},
 	"extensions": {
 		"recommendations": [
+			"christian-kohler.npm-intellisense",
 			"davidanson.vscode-markdownlint",
 			"dbaeumer.vscode-eslint",
-			"esbenp.prettier-vscode",
+			"esbenp.prettier-vscode", 
+			"ms-edgedevtools.vscode-edge-devtools", // Yes, I do use EDGE
 			"wayou.vscode-todo-highlight",
 			"zainchen.json"
 		]
