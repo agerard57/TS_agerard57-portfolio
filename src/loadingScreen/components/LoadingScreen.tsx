@@ -20,13 +20,7 @@ export const LoadingScreen: FC = () => (
         right: 0;
       `}
     >
-      <h1
-        css={css`
-          background-color: "red";
-        `}
-      >
-        Deez
-      </h1>
+      <h1>Please wait while this page is loading...</h1>
       <img src={SpinnerSvg} alt="Spinner" width="40%" />
     </div>
   </BlueBorderBackground>
