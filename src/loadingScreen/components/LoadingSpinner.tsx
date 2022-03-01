@@ -1,9 +1,9 @@
 /** @jsxImportSource @emotion/react */
 import { css } from "@emotion/react";
 
-import { Spinner as SpinnerSvg } from "../assets";
+import { default as SpinnerSvg } from "../assets";
 
-export function Spinner(): JSX.Element {
+export function LoadingSpinner(): JSX.Element {
   return (
     <div
       css={css`
