@@ -11,9 +11,12 @@ export const LoadingScreen: FC = () => {
   return (
     <BlueBorderBackground backgroundColor={"white"}>
       <div
+        className="container"
         css={css`
           flex: 1;
+          flex-direction: column;
           display: flex;
+          text-align: center;
           justify-content: center;
           align-items: center;
           position: absolute;
@@ -23,7 +26,7 @@ export const LoadingScreen: FC = () => {
           right: 0;
         `}
       >
-        <h1>{t("loading")}</h1>
+        <h2>{t("loading")}</h2>
         <img src={SpinnerSvg} alt="Spinner" width="40%" />
       </div>
     </BlueBorderBackground>
