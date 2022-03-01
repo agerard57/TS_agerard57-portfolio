@@ -4,7 +4,7 @@ import { FC } from "react";
 import { useTranslation } from "react-i18next";
 
 import { BlueBorderBackground } from "../../core";
-import { LoadingSpinner } from "./LoadingSpinner";
+import { default as SpinnerSvg } from "../assets";
 
 export const LoadingScreen: FC = () => {
   const { t } = useTranslation("loadingScreen");
@@ -27,7 +27,7 @@ export const LoadingScreen: FC = () => {
         `}
       >
         <h2>{t("loading")}</h2>
-        <LoadingSpinner />
+        <img src={SpinnerSvg} alt="Spinner" width="10%" />
       </div>
     </BlueBorderBackground>
   );
