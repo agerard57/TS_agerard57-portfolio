@@ -5,12 +5,13 @@ import { FC, Suspense } from "react";
 import { ToastProvider } from "react-toast-notifications";
 
 import "./App.css";
+import { LoadingScreen } from "./loadingScreen";
 import { RouteManager } from "./routeManager";
 
 //TODO Proper Suspense
 
 export const App: FC = () => (
-  <Suspense fallback={<div>deez</div>}>
+  <Suspense fallback={<LoadingScreen />}>
     <ToastProvider>
       <RouteManager />
     </ToastProvider>
