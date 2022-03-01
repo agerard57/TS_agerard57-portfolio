@@ -1,1 +1,1 @@
-export { default as Spinner } from "./spinner.svg";
+export { default } from "./spinner.svg";
