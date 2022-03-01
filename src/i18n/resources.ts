@@ -1,6 +1,7 @@
 import { i18n as contact } from "../contact";
 import { i18n as core } from "../core";
 import { i18n as landingPage } from "../landingPage";
+import { i18n as loadingScreen } from "../loadingScreen";
 import { i18n as presentation } from "../presentation";
 import { i18n as projects } from "../projects";
 import { i18n as resume } from "../resume";
@@ -24,6 +25,7 @@ const moduleResources = normalize({
   contact,
   core,
   landingPage,
+  loadingScreen,
   presentation,
   projects,
   resume,
