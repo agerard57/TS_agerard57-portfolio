@@ -1,12 +1,10 @@
 /** @jsxImportSource @emotion/react */
 import { css } from "@emotion/react";
-import { FC } from "react";
 
-import { BlueBorderBackground } from "../../core";
 import { Spinner as SpinnerSvg } from "../assets";
 
-export const LoadingScreen: FC = () => (
-  <BlueBorderBackground backgroundColor={"white"}>
+export function Spinner(): JSX.Element {
+  return (
     <div
       css={css`
         flex: 1;
@@ -20,14 +18,7 @@ export const LoadingScreen: FC = () => (
         right: 0;
       `}
     >
-      <h1
-        css={css`
-          background-color: "red";
-        `}
-      >
-        Deez
-      </h1>
       <img src={SpinnerSvg} alt="Spinner" width="40%" />
     </div>
-  </BlueBorderBackground>
-);
+  );
+}
