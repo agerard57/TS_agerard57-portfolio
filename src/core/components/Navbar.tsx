@@ -81,11 +81,8 @@ export const NavBar: FC = () => {
         )}
         <Link to="/presentation">{t("titles.presentation")}</Link>
         <Link to="/skills">{t("titles.skills")}</Link>
-
         <Link to="/projects">{t("titles.projects")}</Link>
-
         <Link to="/contact">{t("titles.contact")}</Link>
-
         <Link to="/resume">{t("titles.resume")}</Link>
       </div>
     </div>
