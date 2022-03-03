@@ -7,8 +7,6 @@ import { Link, useLocation } from "react-router-dom";
 import { Arrow } from "./Arrow";
 import { Logo } from "./Logo";
 
-/* TODO Add an arrow that displays the navbar when hovered */
-
 export const NavBar: FC = () => {
   const { t } = useTranslation("core");
   const location = useLocation();
