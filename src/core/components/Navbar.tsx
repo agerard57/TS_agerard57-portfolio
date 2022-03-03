@@ -7,8 +7,6 @@ import { Link, useLocation } from "react-router-dom";
 import { Arrow } from "./Arrow";
 import { Logo } from "./Logo";
 
-/* TODO Add an arrow that displays the navbar when hovered */
-
 export const NavBar: FC = () => {
   const { t } = useTranslation("core");
   const location = useLocation();
@@ -75,19 +73,14 @@ export const NavBar: FC = () => {
               styles={css`
                 padding: 0;
                 width: 40%;
-                transform: translateY(17%);
-                transition: top 200ms cubic-bezier(0, 0.8, 0.13, 1);
               `}
             />
           </Link>
         )}
         <Link to="/presentation">{t("titles.presentation")}</Link>
         <Link to="/skills">{t("titles.skills")}</Link>
-
         <Link to="/projects">{t("titles.projects")}</Link>
-
         <Link to="/contact">{t("titles.contact")}</Link>
-
         <Link to="/resume">{t("titles.resume")}</Link>
       </div>
     </div>

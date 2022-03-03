@@ -14,7 +14,7 @@ import { Projects } from "../projects";
 import { Resume } from "../resume";
 import { Skills } from "../skills";
 
-export const RouteManager: FC = () => (
+const RouteManager: FC = () => (
   <Router>
     <Layout>
       <Routes>
@@ -29,3 +29,5 @@ export const RouteManager: FC = () => (
     </Layout>
   </Router>
 );
+
+export default RouteManager;
