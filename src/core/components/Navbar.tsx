@@ -75,8 +75,6 @@ export const NavBar: FC = () => {
               styles={css`
                 padding: 0;
                 width: 40%;
-                transform: translateY(17%);
-                transition: top 200ms cubic-bezier(0, 0.8, 0.13, 1);
               `}
             />
           </Link>
