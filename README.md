@@ -11,3 +11,4 @@ My revamped portfolio in typescript
 - Skills : SkillCard, make a dropdown when hovered on the black part
 - Add robots.txt
 - Change translation to yaml ?
+- Create a linkedin badge
